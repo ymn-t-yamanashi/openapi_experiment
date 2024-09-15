@@ -1,0 +1,12 @@
+{
+  "name": "api_doc",
+  "version": "1.0.0",
+  "description": "Validating redoc-cli",
+  "scripts": {
+    "start": "redoc-cli serve openapi.yml --watch",
+    "gen-api-html": "redoc-cli bundle openapi.yml --output _bundle/index.html"
+  },
+  "dependencies": {
+    "redoc-cli": "^0.13.21"
+  }
+}
